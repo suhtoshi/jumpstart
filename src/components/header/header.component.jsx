@@ -7,9 +7,7 @@ const Header = () => (
     <HeaderContainer>
     <Logo/>
         <OptionsContainer>
-            <Options>Dashboard</Options>
-            <Options >Profile</Options>
-            <Options>SignIn</Options>
+            <Options>Sign Up</Options>
         </OptionsContainer>
     </HeaderContainer>
 );

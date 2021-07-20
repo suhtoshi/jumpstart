@@ -9,12 +9,15 @@ export const HeaderContainer = styled.div `
     top: 0;
     z-index: 1;
     background-color: rgb(107, 78, 144);
-
     @media screen and (max-width: 800px){
         height: 60px;
         padding: 10px;
-
     }
+`
+export const HeaderText = styled.h1`
+    color: white;
+    display: flex;
+    align-items: center;
 `
 
 export const OptionsContainer = styled.div `

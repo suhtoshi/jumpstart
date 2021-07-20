@@ -8,7 +8,7 @@ const ProductIntro = () => (
             Welcome to Jumpstart
         </ProductWelcomeTitle>
         <ProductWelcomeText>
-            Jumpstart is the online dashboard built to start your day on the right track.<br></br>
+            Jumpstart is an online dashboard built to start your day on the right track.<br></br>
             Track daily affirmations, focused work objectives, and guided work sessions to maximize productivity.
         </ProductWelcomeText>
         <ExploreButton type='button'>Explore Jumpstart</ExploreButton>

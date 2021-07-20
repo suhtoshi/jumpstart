@@ -8,7 +8,7 @@ export const HeaderContainer = styled.div `
     position: sticky;
     top: 0;
     z-index: 1;
-    background-color: rgb(107, 78, 144);
+    background-color: rgb(28, 5, 58);
     @media screen and (max-width: 800px){
         height: 60px;
         padding: 10px;

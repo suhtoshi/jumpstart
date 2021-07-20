@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ProductWelcomeCard = styled.div `
     width: 100%;
-    height: 100px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -28,7 +28,7 @@ export const ProductWelcomeText = styled.p`
 export const ExploreButton = styled.button `
     font-size: 1em;
     color: rgb(242,242,242);
-    background-color: rgb(107, 78, 144);
+    background-color: rgb(28, 5, 58);
     margin: 1em;
     padding: 0.25em 1em;
     border: 2px solid rgb(242,242,242);
@@ -37,6 +37,6 @@ export const ExploreButton = styled.button `
     &:hover{
         cursor: pointer;
         background-color: rgb(242,242,242);
-        color: rgb(107,78,144);
+        color: rgb(28, 5, 58);
     }
 `

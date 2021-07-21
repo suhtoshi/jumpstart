@@ -48,7 +48,7 @@ export const GetStartedPhoto = styled.div `
 export const GetStartedCards = styled.div `
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 25px;
+    grid-gap: 40px;
     padding-top: 100px;
 
 `

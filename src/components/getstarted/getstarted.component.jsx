@@ -21,9 +21,9 @@ const GetStarted = () => (
         </GetStartedTop>
         <GetStartedCards>
             <HomeCard header="Affirmations" info="Track your daily affirmations."/>
+            <HomeCard header= "Brainstorm" info ="Organize your plans. Set your sails to succeed."/>
             <HomeCard header="Prepare" info="Mentally prepare for your workday."/>
             <HomeCard header="Distractions" info="Track them. Remove them."/>
-            <HomeCard header= "Brainstorm" info ="Organize your plans. Set your sails to succeed."/>
         </GetStartedCards>
     </GetStartedContainer>
 )

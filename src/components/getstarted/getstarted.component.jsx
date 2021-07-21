@@ -4,14 +4,11 @@ import {
         GetStartedExplain, 
         GetStartedPhoto, 
         GetStartedCards,
-        GetAffirmation,
-        GetPrepare,
-        GetDistraction,
-        GetBrainstorm,
         GetStartedTop,
         GetStartedExplainTitle,
         GetStartedExplainText
         } from './getstarted.styles'
+import HomeCard from '../home-card/home-card.component';
 
 const GetStarted = () => (
     <GetStartedContainer>
@@ -23,10 +20,10 @@ const GetStarted = () => (
             <GetStartedPhoto></GetStartedPhoto>
         </GetStartedTop>
         <GetStartedCards>
-            <GetAffirmation>Track Daily Affirmations</GetAffirmation>
-            <GetPrepare>Prepare for the workday</GetPrepare>
-            <GetDistraction>Track Distractions and Eleminate Them</GetDistraction>
-            <GetBrainstorm>Brainstorm Daily Objectives</GetBrainstorm>
+            <HomeCard header="Affirmations" info="Track your daily affirmations."/>
+            <HomeCard header="Prepare" info="Mentally prepare for your workday."/>
+            <HomeCard header="Distractions" info="Track them. Remove them."/>
+            <HomeCard header= "Brainstorm" info ="Organize your plans. Set your sails to succeed."/>
         </GetStartedCards>
     </GetStartedContainer>
 )

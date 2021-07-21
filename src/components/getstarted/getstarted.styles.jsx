@@ -7,7 +7,7 @@ export const GetStartedContainer = styled.div  `
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 50px;
     background-color: rgb(49, 21, 87);
     ${'' /* padding-right: 20px;
     padding-left: 20px; */}
@@ -15,28 +15,29 @@ export const GetStartedContainer = styled.div  `
 `
 export const GetStartedTop = styled.div `
     width: 100%;
+    height: 500px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
 `
 
 export const GetStartedExplain = styled.div `
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 40%;
 `
 export const GetStartedExplainTitle = styled.h1 `
 
 `
 export const GetStartedExplainText = styled.p `
-    width: 40%;
+    width: 100%;
 `
 
 export const GetStartedPhoto = styled.div `
     width: 40%;
-    height: 250px;
+    height: 400px;
     background-image: url(${img});
     background-position: center;
     background-size: cover;
@@ -47,7 +48,7 @@ export const GetStartedPhoto = styled.div `
 export const GetStartedCards = styled.div `
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
+    grid-gap: 25px;
     padding-top: 100px;
 
 `

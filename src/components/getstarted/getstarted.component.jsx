@@ -20,10 +20,10 @@ const GetStarted = () => (
             <GetStartedPhoto></GetStartedPhoto>
         </GetStartedTop>
         <GetStartedCards>
-            <HomeCard header="Affirmations" info="Track your daily affirmations."/>
-            <HomeCard header= "Brainstorm" info ="Organize your plans. Set your sails to succeed."/>
-            <HomeCard header="Prepare" info="Mentally prepare for your workday."/>
-            <HomeCard header="Distractions" info="Track them. Remove them."/>
+            <HomeCard header="affirmations" info="Track your daily affirmations."/>
+            <HomeCard header= "brainstorm" info ="Organize your plans. Set your sails to succeed."/>
+            <HomeCard header="prepare" info="Mentally prepare for your workday."/>
+            <HomeCard header="distractions" info="Track them. Remove them."/>
         </GetStartedCards>
     </GetStartedContainer>
 )

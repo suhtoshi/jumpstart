@@ -1,12 +1,16 @@
 import React from 'react';
 import {CardContainer} from './home-card.styles'
+import {withRouter} from 'react-router-dom';
 
-const HomeCard = (props) => (
-    <CardContainer>
-        <img alt="" src={props.photo}/>
-        <h2>{props.header}</h2>
-        <p>{props.info}</p>
+
+
+
+const HomeCard = ({photo, header, info, history, match}) => (
+    <CardContainer onClick={()=> history.push(`${match.url}${header}`)}>
+        <img alt="" src={photo}/>
+        <h2>{header.toUpperCase()}</h2>
+        <p>{info}</p>
     </CardContainer>
 )
 
-export default HomeCard;
+export default withRouter(HomeCard);

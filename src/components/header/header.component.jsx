@@ -5,7 +5,7 @@ import { ReactComponent as Logo} from '../../assets/logo.svg'
 
 const Header = () => (
     <HeaderContainer>
-    <Logo/>
+    <Logo to='/'/>
     <HeaderText></HeaderText>
     <OptionsContainer>
         <Options>Sign Up</Options>

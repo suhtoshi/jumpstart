@@ -4,11 +4,11 @@ import { IntroCardContainer, ContentContainer, ContentTitle } from './intro-card
 
 const IntroCard = () => (
     <IntroCardContainer >
-        {/* <ContentContainer>
+        <ContentContainer>
             <ContentTitle>
                 Start Your Workday The Right Way
             </ContentTitle>
-        </ContentContainer>  */}
+        </ContentContainer> 
     </IntroCardContainer>
 )
 

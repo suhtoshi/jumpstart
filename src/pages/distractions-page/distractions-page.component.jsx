@@ -1,9 +1,10 @@
 import React from 'react';
+import { DistractionsPageContainer } from './distractions-page.styles';
 
 const DistractionsPage = () => (
-    <div>
+    <DistractionsPageContainer>
         <h1>Distractions</h1>
-    </div>
+    </DistractionsPageContainer>
 )
 
 export default DistractionsPage;

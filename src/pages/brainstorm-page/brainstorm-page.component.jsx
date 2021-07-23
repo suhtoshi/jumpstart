@@ -1,9 +1,10 @@
 import React from 'react';
+import { BrainStormPageContainer } from './brainstorm-page.styles';
 
 const BrainstormPage = () => (
-    <div>
+    <BrainStormPageContainer>
         <h1>Brainstorm</h1>
-    </div>
+    </BrainStormPageContainer>
 )
 
 export default BrainstormPage;

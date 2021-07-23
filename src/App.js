@@ -7,11 +7,13 @@ import AffirmationPage from './pages/affirmations-page/affirmationspage.componen
 import PreparePage from './pages/prepare-page/prepare-page.component';
 import DistractionsPage from './pages/distractions-page/distractions-page.component';
 import BrainstormPage from './pages/brainstorm-page/brainstorm-page.component';
+import Header from './components/header/header.component';
 
 
 function App() {
   return (
     <div>
+    <Header/>
       <Switch>
         <Route exact path='/' component={HomePage} />
         <Route exact path='/affirmations' component={AffirmationPage} />

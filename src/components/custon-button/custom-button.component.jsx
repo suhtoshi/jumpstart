@@ -2,7 +2,7 @@ import React from 'react';
 import { CustomButtonContainer } from './custon-button.styles';
 
 const CustomButton = () => (
-    <CustomButtonContainer/>
+    <CustomButtonContainer type='button'></CustomButtonContainer>
 )
 
 export default CustomButton;

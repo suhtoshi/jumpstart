@@ -7,6 +7,7 @@ import AffirmationPage from './pages/affirmations-page/affirmationspage.componen
 import PreparePage from './pages/prepare-page/prepare-page.component';
 import DistractionsPage from './pages/distractions-page/distractions-page.component';
 import BrainstormPage from './pages/brainstorm-page/brainstorm-page.component';
+import JumpstartPage from './pages/jumpstart-page/jumpstart-page.component';
 import Header from './components/header/header.component';
 
 
@@ -20,6 +21,7 @@ function App() {
         <Route exact path='/prepare' component={PreparePage} />
         <Route exact path='/distractions' component={DistractionsPage} />
         <Route exact path='/brainstorm' component={BrainstormPage} />
+        <Route exact path='/what-is-jumpstart' component={JumpstartPage} />
       </Switch>
     </div>
   );

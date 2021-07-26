@@ -15,7 +15,7 @@ const GetStarted = () => (
         <GetStartedTop>
             <GetStartedExplain>
                 <GetStartedExplainTitle>Get started</GetStartedExplainTitle>
-                <GetStartedExplainText>Jumpstart.com is your portal into the remote workday. Gone are the commutes to brace ourselves mentally for the day. Jumpstart enables users to take 10 to 15 minutes to transition into work mode. Here's what we recommend to start working with Jumpstart.</GetStartedExplainText>
+                <GetStartedExplainText>Jumpstart.com is your portal into the remote workday. Gone are the commutes to brace ourselves mentally for the day. Jumpstart enables users to take 10 to 15 minutes to transition into work mode. Here's what we recommend you do if you want to dive in.</GetStartedExplainText>
             </GetStartedExplain>
             <GetStartedPhoto></GetStartedPhoto>
         </GetStartedTop>

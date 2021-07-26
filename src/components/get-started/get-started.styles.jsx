@@ -51,6 +51,7 @@ export const GetStartedCards = styled.div `
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
     padding-top: 100px;
+    padding-bottom: 100px;
     @media screen and (max-width: 1100px){
     grid-template-columns: 1fr;
 

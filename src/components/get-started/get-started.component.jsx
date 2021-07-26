@@ -7,7 +7,7 @@ import {
         GetStartedTop,
         GetStartedExplainTitle,
         GetStartedExplainText
-        } from './getstarted.styles'
+        } from './get-started.styles'
 import HomeCard from '../home-card/home-card.component';
 
 const GetStarted = () => (
@@ -20,10 +20,10 @@ const GetStarted = () => (
             <GetStartedPhoto></GetStartedPhoto>
         </GetStartedTop>
         <GetStartedCards>
-            <HomeCard header="create affirmations" info="Affirmations help give you that motivation you need it most."/>
-            <HomeCard header= "start brainstorming" info ="Organize your day. Set your first objective and path to completion."/>
-            <HomeCard header="prepare for challenges" info="Define your hurdles and prepare for necessary pivots."/>
-            <HomeCard header="remove distractions" info="Find them. Track them. Remove them."/>
+            <HomeCard route="affirmations" header="create affirmations" info="Affirmations help give you that motivation you need it most."/>
+            <HomeCard route="brainstorm" header= "start brainstorming" info ="Organize your day. Set your first objective and path to completion."/>
+            <HomeCard route="prepare" header="prepare for challenges" info="Define your hurdles and prepare for necessary pivots."/>
+            <HomeCard route="distractions" header="remove distractions" info="Find them. Track them. Remove them."/>
         </GetStartedCards>
     </GetStartedContainer>
 )

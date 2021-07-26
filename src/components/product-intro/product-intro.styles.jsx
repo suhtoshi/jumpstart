@@ -7,6 +7,7 @@ export const ProductWelcomeCard = styled.div `
     flex-direction: column;
     justify-items: center;
     align-items: center;
+    padding-bottom: 50px;
 `
 
 export const ProductWelcomeTitle = styled.h1 `

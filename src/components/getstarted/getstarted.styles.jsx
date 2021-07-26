@@ -33,6 +33,7 @@ export const GetStartedExplainTitle = styled.h1 `
 `
 export const GetStartedExplainText = styled.p `
     width: 100%;
+    font-size: 1.3em;
 `
 
 export const GetStartedPhoto = styled.div `
@@ -50,6 +51,8 @@ export const GetStartedCards = styled.div `
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
     padding-top: 100px;
+    @media screen and (max-width: 1100px){
+    grid-template-columns: 1fr;
 
 `
 export const GetAffirmation = styled.div `

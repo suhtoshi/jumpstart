@@ -6,6 +6,7 @@ export const HeaderContainer = styled.div `
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -21,9 +22,11 @@ export const HeaderText = styled.h1`
     align-items: center;
 `
 export const LogoContainer = styled(Link) `
+    display: flex;
+    align-items: center;
     height: 100%;
     width: 70px;
-    padding: 25px;
+    padding-left: 20px;
 
     @media screen and (max-width: 800px){
         width: 50px;

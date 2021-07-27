@@ -9,9 +9,9 @@ const Header = () => (
     </LogoContainer>
     <HeaderText></HeaderText>
     <OptionsContainer>
-        <Options>Explore</Options>
-        <Options>Contact</Options>
-        <Options>Sign Up</Options>
+        <Options to='/what-is-jumpstart'>Explore</Options>
+        <Options to='/contact'>Contact</Options>
+        <Options to='/signin'>Sign Up</Options>
     </OptionsContainer>
     </HeaderContainer>
 );

@@ -22,4 +22,8 @@ export const CardContainer = styled.div `
         cursor: pointer;
         transform: scale(1.05);
     }
+    @media screen and (max-width: 800px){
+    height: auto;
+    width: auto;
+    }
 `

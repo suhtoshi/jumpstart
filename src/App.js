@@ -9,7 +9,8 @@ import DistractionsPage from './pages/distractions-page/distractions-page.compon
 import BrainstormPage from './pages/brainstorm-page/brainstorm-page.component';
 import JumpstartPage from './pages/jumpstart-page/jumpstart-page.component';
 import Header from './components/header/header.component';
-
+import SignUpSignInPage from './pages/signup-signin-page/signup-signin.component';
+import ContactPage from './pages/contact-page/contact.component';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
         <Route exact path='/distractions' component={DistractionsPage} />
         <Route exact path='/brainstorm' component={BrainstormPage} />
         <Route exact path='/what-is-jumpstart' component={JumpstartPage} />
+        <Route exact path='/signin' component={SignUpSignInPage} />
+        <Route exact path='/contact' component={ContactPage} />
       </Switch>
     </div>
   );

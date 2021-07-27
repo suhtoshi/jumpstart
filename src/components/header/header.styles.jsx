@@ -46,7 +46,7 @@ export const OptionsContainer = styled.div `
         width: 80%;
     }
 `
-export const Options = styled.div`
+export const Options = styled(Link)`
     padding: 10px 15px;
     cursor: pointer;
     color: white;

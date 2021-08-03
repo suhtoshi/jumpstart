@@ -4,7 +4,6 @@ export const CardContainer = styled.div `
     display: flex;
     flex-direction: column;
     height: 300px;
-    width: 500px;
     background: linear-gradient(
     to left,
     rgba(143, 120, 173,1) 0%,

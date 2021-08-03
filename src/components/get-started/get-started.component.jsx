@@ -20,7 +20,7 @@ const GetStarted = () => (
             <GetStartedPhoto></GetStartedPhoto>
         </GetStartedTop>
         <GetStartedCards>
-            <HomeCard route="affirmations" header="create affirmations" info="Affirmations help give you that motivation you need it most."/>
+            <HomeCard route="affirmations" header="create affirmations" info="Affirmations help give you that motivation when you need it most."/>
             <HomeCard route="brainstorm" header= "start brainstorming" info ="Organize your day. Set your first objective and path to completion."/>
             <HomeCard route="prepare" header="prepare for challenges" info="Define your hurdles and prepare for necessary pivots."/>
             <HomeCard route="distractions" header="remove distractions" info="Find them. Track them. Remove them."/>

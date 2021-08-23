@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const SignUpSignInPageContainer = styled.div `
     display: flex;
-    flex-direction: column;
-}
+    width: 850px;
+    justify-content: space-between;
+    margin: 20px auto;
 `

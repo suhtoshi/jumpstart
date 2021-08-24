@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const CardContainer = styled.div `
     display: flex;
     flex-direction: column;
-    height: 300px;
+    height: 400px;
     background: linear-gradient(
     to left,
     rgba(143, 120, 173,1) 0%,
@@ -11,7 +11,6 @@ export const CardContainer = styled.div `
     );
     border: 1px solid grey;
     border-radius: 5px;
-    padding: 25px;
     cursor: pointer;
     -moz-osx-font-smoothing: grayscale;
     backface-visibility: hidden;
@@ -25,4 +24,13 @@ export const CardContainer = styled.div `
     height: auto;
     width: auto;
     }
+`
+
+export const CardContainerPhoto = styled.image `
+`
+
+export const CardContainerInfo = styled.div `
+    font-size: 0.85em;
+    background: rgba(28, 5, 58, 1);
+    padding: 25px;
 `
